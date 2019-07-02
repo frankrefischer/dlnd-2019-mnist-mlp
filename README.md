@@ -5,8 +5,10 @@ Training an MLP to classify images from the MNIST database hand-written digit da
 
 ### Which CUDA version is installed?
 
-Windows 10: `where cuda*.*`
+#### Windows 10:
+
 ```
+>where cuda*.*
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cuda-memcheck.exe
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudafe++.exe
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v9.0\bin\cudafe.exe
@@ -16,8 +18,9 @@ C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\cudart32_65.dll
 C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common\cudart64_65.dll
 ```
 
-Or: `nvcc -V`
+Or:
 ```
+>nvcc -V
 nvcc: NVIDIA (R) Cuda compiler driver
 Copyright (c) 2005-2017 NVIDIA Corporation
 Built on Fri_Sep__1_21:08:32_Central_Daylight_Time_2017
